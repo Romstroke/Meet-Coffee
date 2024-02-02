@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+}
+
+/* NAVBAR */
+
+nav{
+	height: 99px;
+	padding-top: 32px;
+}
+
+#nav-inicio {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 57px;
+	vertical-align: middle;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
+
+.icono {
+	font-size: 57px;
+}
+.oscuro {
+	background-color: #000f08;
+}
+
+/* nav simposio */
+
+#nav-simposio {
+    padding-left: 127px;
+}
+
+/* HERO */
+.hero-section {
+	background-image: url(../img/bg-hero.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-family: "Open sans";
+	text-align: right;
+	color: white;
+	height: 422px;
+	padding-right: 11.9em;
+	padding-top: 52px;
+	padding-bottom: 12.3rem;
+	text-shadow: 0px 3px 6px #00000080;
+}
+
+.hero-section h1 {
+	font-size: 3.75rem;
+	font-weight: 800;
+}
+
+.hero-section h2 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+/* SECTION UBICACION */
+
+#ubicacion {
+	text-align: center;
+	padding-top: 9.5rem;
+	padding-bottom: 8.1rem;
+}
+
+#ubicacion h2 {
+	margin-top: 41px;
+	margin-bottom: 18px;
+
+	font-size: 2.9rem;
+	font-weight: bold;
+}
+
+#ubicacion p {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+/* SECTION proxima charla */
+
+#proxima-charla {
+	padding: 100px;
+	color: white;
+}
+
+.sweet-brown {
+	background: #a4452c;
+}
+
+#proxima-charla .centrado {
+	width: 800px;
+	margin: auto;
+}
+
+.centrado img {
+	width: 35%;
+}
+
+.centrado .charla-texto {
+	width: 60%;
+	margin-left: 4%;
+}
+
+.centrado img,
+.charla-texto {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.centrado h2 {
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+.centrado h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.centrado h4 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.centrado h5 {
+	font-size: 1.25rem;
+	font-weight: lighter;
+}
+
+.centrado p {
+	font-size: 1.2rem;
+	font-weight: lighter;
+	line-height: 34px;
+	margin-top: 10px;
+}
+
+/* EVENTOS */
+
+#eventos {
+	text-align: center;
+	padding-top: 143px;
+	padding-bottom: 162px;
+}
+
+#eventos a {
+	text-decoration: none;
+	color: #000F08;
+}
+
+.evento {
+	display: inline-block;
+	margin-right: auto;
+	text-align: center;
+}
+.evento-margen {
+	margin: 0 100px;
+}
+
+#eventos h2 {
+	font-size: 2.8rem;
+	font-weight: bold;
+	margin-bottom: 75px;
+}
+
+.evento h3 {
+	font-size: 2.1rem;
+	font-weight: bold;
+	margin-top: 48px;
+}
+
+.wrapper {
+	justify-content: center;
+}
+
+/* SIMPOSIO VEGAN */
+
+#simposio p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+/* header */
+
+#simposio-header h1{
+	font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+	font-size: 45px;
+	color: #000F08;
+    margin-bottom: 73px;
+}
+
+#simposio-header img{
+	width: 1085px;
+    height: 565px;
+    margin-bottom: 73px;
+}
+
+/* main */
+
+main{
+    padding: 97px 418px  70px;
+}
+
+/* sección gregorio */
+
+#gregorio-samsa{
+	margin-bottom: 120px;
+}
+
+#gregorio-samsa h2{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 40px;
+	margin-bottom: 48px;
+}
+
+/* Footer */
+
+footer {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	background: #000f08;
+	color: white;
+}
+
+footer p{
+	font-size: 25px;
+	padding-bottom: 33px;
+}
+
+i {
+	font-size: 70px;
+	color: white;
+	margin-top: 101px;
+	margin-left: 27px;
+	margin-bottom: 46px;
+}
+
+#Eventos-Anteriores {
+	text-align: center;
+   }
